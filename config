@@ -1,0 +1,17 @@
+# ~/.ssh/config
+
+#Example: git clone JoseRamonMendoza-github:<account>/<repo>.git will use the 
+#id_ed25519_JoseRamonMendoza file to authorize
+
+#GitHub JoseRamonMendoza account
+Host JoseRamonMendoza-github
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_ed25519_JoseRamonMendoza
+
+#GitHub Work account
+Host Work-github
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_ed25519_Work
+
